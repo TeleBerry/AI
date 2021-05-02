@@ -25,15 +25,16 @@ def bias_variable(shape):  # initial bias
     initial = tf.constant(0.0, shape=shape)
     return tf.Variable(initial)
 
-# x = tf.placeholder(tf.float32, [batch_size, 128, 128, 3])
-# y = tf.placeholder(tf.float32, [batch_size, 2])
+
+x = tf.placeholder(tf.float32, [batch_size, 128, 128, 3])
+y_ = tf.placeholder(tf.float32, [batch_size, 2])
 
 
 # sess = tf.InteractiveSession()
-with tf.name_scope('Input'):
-    x = tf.placeholder(tf.float32, shape=[None, n_features])
-with tf.name_scope('Label'):
-    y_ = tf.placeholder(tf.float32, shape=[None, n_labels])
+# with tf.name_scope('Input'):
+#     x = tf.placeholder(tf.float32, shape=[None, n_features])
+# with tf.name_scope('Label'):
+#     y_ = tf.placeholder(tf.float32, shape=[None, n_labels])
 
 
 def conv2d(x, W):  # convolution layer
