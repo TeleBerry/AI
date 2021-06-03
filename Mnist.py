@@ -16,7 +16,7 @@ def add_layer(inputs, in_size, out_size, activation_function=None):
         with tf.name_scope('weights'):  # 名稱為weights的隨機變量矩陣
             Weights = tf.Variable(tf.random_normal([in_size, out_size]))
 
-        with tf.name_scope('biases'):
+        with tf.name_scope('biases'):  # 名稱為biases的零矩陣，用0不好+0.1
             biases = tf.Variable(tf.zeros([1, out_size]) + 0.1)
 
         with tf.name_scope('Wx_plus_b'):
@@ -79,15 +79,15 @@ for i in range(1000):
     batch_xs, batch_ys = mnist.train.next_batch(100)
     sess.run(train_step, feed_dict={xs: batch_xs, ys: batch_ys})
 
-if i % 50 == 0:
-    print(compute_accuracy(
-        mnist.test.images, mnist.test.labels
-    ))
+    if i % 50 == 0:
+        print(compute_accuracy(
+            mnist.test.images, mnist.test.labels
+        ))
 
 # 下列是輸出誤差
 # if i % 50 == 0:
 #      # to see the step improvement
-#     print(sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
+#     print(sess.run(cross_entropy, feed_dict={xs: x_data, ys: y_data}))
 # ------------------------------------------------------------------
 
 # 出來的結果會是辨識的正確率
