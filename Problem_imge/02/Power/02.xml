@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Power</folder>
+	<filename>02.jpg</filename>
+	<path>D:\Teleberry_01\Problem_imge\02\Power\02.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>1706</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Power_normal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>12</xmin>
+			<ymin>189</ymin>
+			<xmax>26</xmax>
+			<ymax>209</ymax>
+		</bndbox>
+	</object>
+</annotation>
