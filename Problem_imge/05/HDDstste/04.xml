@@ -1,0 +1,26 @@
+<annotation>
+	<folder>HDDstste</folder>
+	<filename>04.jpg</filename>
+	<path>D:\Teleberry_01\Problem_imge\05\HDDstste\04.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>1706</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>HDDstste_normal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>179</xmin>
+			<ymin>928</ymin>
+			<xmax>236</xmax>
+			<ymax>944</ymax>
+		</bndbox>
+	</object>
+</annotation>
