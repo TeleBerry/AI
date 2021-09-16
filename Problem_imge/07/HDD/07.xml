@@ -1,0 +1,26 @@
+<annotation>
+	<folder>HDD</folder>
+	<filename>07.jpg</filename>
+	<path>D:\Teleberry_01\Problem_imge\07\HDD\07.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>1706</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>HDD_normal</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1436</ymin>
+			<xmax>635</xmax>
+			<ymax>1624</ymax>
+		</bndbox>
+	</object>
+</annotation>
