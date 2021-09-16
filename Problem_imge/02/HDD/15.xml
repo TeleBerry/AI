@@ -17,46 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>778</xmin>
-			<ymin>225</ymin>
-			<xmax>910</xmax>
-			<ymax>260</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>HDD_shut down</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>775</xmin>
-			<ymin>194</ymin>
-			<xmax>908</xmax>
-			<ymax>221</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>HDD_shut down</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>912</xmin>
-			<ymin>185</ymin>
-			<xmax>960</xmax>
-			<ymax>223</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>HDD_shut down</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>914</xmin>
-			<ymin>224</ymin>
-			<xmax>960</xmax>
-			<ymax>249</ymax>
+			<xmin>776</xmin>
+			<ymin>226</ymin>
+			<xmax>903</xmax>
+			<ymax>257</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>HDDtraffic</folder>
-	<filename>10.jpg</filename>
-	<path>D:\Teleberry_01\Problem_imge\02\HDDtraffic\10.jpg</path>
+	<folder>Warninglight</folder>
+	<filename>24.jpg</filename>
+	<path>D:\Teleberry_01\Problem_imge\02\Warninglight\24.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>HDDtraffic_one</name>
+		<name>Warninglight_normal</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>740</xmin>
-			<ymin>236</ymin>
-			<xmax>780</xmax>
-			<ymax>252</ymax>
+			<xmin>635</xmin>
+			<ymin>205</ymin>
+			<xmax>655</xmax>
+			<ymax>224</ymax>
 		</bndbox>
 	</object>
 </annotation>

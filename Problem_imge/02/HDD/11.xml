@@ -12,75 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>HDD_shut down</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>259</xmin>
-			<ymin>227</ymin>
-			<xmax>390</xmax>
-			<ymax>259</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>HDD_shut down</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>394</xmin>
-			<ymin>227</ymin>
-			<xmax>525</xmax>
-			<ymax>267</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>HDD_shut down</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>391</xmin>
-			<ymin>261</ymin>
-			<xmax>534</xmax>
-			<ymax>298</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>HDD_Notused</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>530</xmin>
-			<ymin>229</ymin>
-			<xmax>659</xmax>
-			<ymax>261</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>HDD_Notused</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>533</xmin>
-			<ymin>261</ymin>
-			<xmax>661</xmax>
-			<ymax>301</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>HDD_normal</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>263</xmin>
-			<ymin>256</ymin>
+			<xmin>257</xmin>
+			<ymin>264</ymin>
 			<xmax>393</xmax>
-			<ymax>301</ymax>
+			<ymax>297</ymax>
 		</bndbox>
 	</object>
 </annotation>
