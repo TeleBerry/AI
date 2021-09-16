@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Warninglight</folder>
+	<filename>30.jpg</filename>
+	<path>D:\Teleberry_01\Problem_imge\04\Warninglight\30.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>1706</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Warninglight_f28500</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>437</xmin>
+			<ymin>761</ymin>
+			<xmax>450</xmax>
+			<ymax>775</ymax>
+		</bndbox>
+	</object>
+</annotation>
