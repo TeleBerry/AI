@@ -1,0 +1,26 @@
+<annotation>
+	<folder>ALERT</folder>
+	<filename>24.jpg</filename>
+	<path>D:\Teleberry_01\Problem_imge\03\ALERT\24.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>1706</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ALERT_warn</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>281</xmin>
+			<ymin>515</ymin>
+			<xmax>299</xmax>
+			<ymax>532</ymax>
+		</bndbox>
+	</object>
+</annotation>
