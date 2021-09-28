@@ -4,20 +4,20 @@ Created on Thu Sep 23 16:49:04 2021
 
 @author: YIHSUAN
 """
-
+#%%
 from PIL import Image
 img=Image.open('PetImages/Cat/500.jpg')
-
+#%%
 import os
 import glob
 import numpy as np
 from keras.preprocessing.image import  img_to_array, load_img
 from PIL import Image
-#%%
+
 dict_labels = {"Cat":0, "Dog":1}
-size = (64,64) """由於原始資料影像大小不一，因此制定一個統一值"""
-nbofdata=500   """從各個資料夾中抓取特定數量的檔案"""
-#%%
+size = (64,64)
+nbofdata=500   
+
 for folders in glob.glob("PetImages/*"):
     print(folders)
     images=[]
@@ -39,8 +39,11 @@ for folders in glob.glob("PetImages/*"):
                     nbofdata_i+=1
     images=np.array(images)    
     labels_hot=np.array(labels_hot)
+
+
     print("images.shape={}, labels_hot.shape=={}".format(images.shape, labels_hot.shape))    
     imagesavepath='Cat_Dog_Dataset/'
+    
     if not os.path.exists(imagesavepath):
         os.makedirs(imagesavepath)
     np.save(imagesavepath+'{}_images.npy'.format(label),images)    
