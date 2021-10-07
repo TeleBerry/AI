@@ -7,6 +7,7 @@ Created on Thu Sep 23 16:49:04 2021
 #%%
 from PIL import Image
 img=Image.open('PetImages/Cat/500.jpg')
+
 #%%
 import os
 import glob
@@ -39,8 +40,8 @@ for folders in glob.glob("PetImages/*"):
                     nbofdata_i+=1
     images=np.array(images)    
     labels_hot=np.array(labels_hot)
-
-
+    
+    
     print("images.shape={}, labels_hot.shape=={}".format(images.shape, labels_hot.shape))    
     imagesavepath='Cat_Dog_Dataset/'
     
@@ -50,3 +51,4 @@ for folders in glob.glob("PetImages/*"):
     np.save(imagesavepath+'{}_label.npy'.format(label),labels)    
     np.save(imagesavepath+'{}_labels_hot.npy'.format(label),labels_hot)
     print('{} files has been saved.'.format(label))
+    
